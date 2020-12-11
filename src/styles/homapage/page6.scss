@@ -1,0 +1,133 @@
+.page6 {
+  background-color: #f0efeb;
+  width: 100vw;
+  height: 100vh;
+  min-height: 700px;
+}
+.page6img {
+  height: 100vh;
+}
+.page6imgArea {
+  height: 40vh;
+  min-width: 27.25rem;
+  width: 30vw;
+  min-height: 31.875rem;
+}
+.page6activityImg1 {
+  background-color: #fff;
+  position: absolute;
+  bottom: 0;
+  width: 27.25rem;
+  height: 31.875rem;
+  z-index: 3;
+}
+
+.page6activityImg1 img {
+  opacity: 0.8;
+  width: 27.25rem;
+  height: 31.875rem;
+}
+.page6activityImg2 {
+  position: absolute;
+  bottom: 1.5rem;
+  left: 1.5rem;
+  z-index: 2;
+  background-color: #fff;
+  transition: 0.5s;
+}
+.page6activityImg2 img {
+  opacity: 0.6;
+  width: 27.25rem;
+  height: 31.875rem;
+  object-fit: cover;
+}
+
+.page6activityImg2:hover {
+  z-index: 4;
+}
+.page6activityImg2:hover img {
+  z-index: 4;
+  opacity: 0.8;
+}
+.page6activityImg3 {
+  position: absolute;
+  bottom: 3rem;
+  left: 3rem;
+  z-index: 1;
+  background-color: #fff;
+}
+.page6activityImg3 img {
+  opacity: 0.3;
+  width: 27.25rem;
+  height: 31.875rem;
+  transition: 0.5s;
+  object-fit: cover;
+}
+.page6activityImg3:hover {
+  z-index: 4;
+}
+.page6activityImg3:hover img {
+  z-index: 4;
+  opacity: 0.8;
+}
+.page6desArea {
+  height: 20vh;
+  min-height: 200px;
+  overflow: auto;
+  overflow-x: hidden;
+}
+.page6des1 {
+  color: #555555;
+  font-family: $fontType2;
+  font-size: 2.3rem;
+}
+.page6recent {
+  font-family: $fontType1;
+  font-size: 1.25rem;
+  color: #555555;
+}
+.page6des2 {
+  border-bottom: 1px solid #707070;
+  border-top: 1px solid #707070;
+  width: 20vw;
+  max-width: 300px;
+}
+
+.page6des2date {
+  border-right: solid 0.5px #707070;
+  margin: 1.25rem 0 1.25rem 0.3125rem;
+}
+
+.page6des2dateYear {
+  font-size: 1.25rem;
+  font-family: $fontType3;
+  color: #555555;
+}
+.page6desdateDay {
+  text-align: end;
+  font-size: 1rem;
+  font-family: $fontType3;
+  color: #555555;
+}
+.page6des2topic {
+  color: #707070;
+  font-family: $fontType3;
+  font-size: 1rem;
+}
+.page6des3 {
+  border-bottom: 1px solid #707070;
+  width: 20vw;
+  max-width: 300px;
+}
+.page6more {
+  color: #a5a58d;
+  font-size: 1rem;
+  font-family: $fontType1;
+}
+.page6more:hover {
+  color: #a5a58d;
+}
+
+.homepage {
+  transition: 1s;
+}

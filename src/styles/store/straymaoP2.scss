@@ -1,0 +1,246 @@
+// Import Bootstrap and its default variables
+@import "~bootstrap/scss/bootstrap.scss";
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+p {
+  margin: 0%;
+  padding: 0%;
+}
+
+.container {
+  overflow: hidden;
+}
+
+.storeP2CatImg {
+  width: 110%;
+  /* height: 100%; */
+  overflow: hidden;
+  margin: -1vw -1.5vw;
+}
+
+.storeP2BackgroundAround {
+  position: relative;
+}
+
+.storeP2Background {
+  // margin: 3vh auto;
+  width: 100%;
+  overflow: hidden;
+  // position: relative;
+}
+
+//貓
+.storeP2BackgroundBox1 {
+  top: 0px;
+  right: 8vw;
+  width: 15vw;
+  height: 35vh;
+  opacity: 0.8;
+  position: absolute;
+  background-color: #ddbea9;
+}
+
+.storeP2BackgroundBox2 {
+  top: 5vh;
+  right: 11vw;
+  width: 15vw;
+  height: 35vh;
+  opacity: 0.8;
+  position: absolute;
+  background-color: #fff1e6;
+  z-index: 2;
+  font-size: 1.5rem;
+  color: #ddbea9;
+  text-align: center;
+  line-height: 35vh;
+}
+
+//狗
+.storeP2BackgroundDogsBox1 {
+  top: 0px;
+  left: 8vw;
+  width: 15vw;
+  height: 35vh;
+  opacity: 0.8;
+  position: absolute;
+  background-color: #a5a58d;
+}
+
+.storeP2BackgroundDogsBox2 {
+  top: 5vh;
+  left: 11vw;
+  width: 15vw;
+  height: 35vh;
+  opacity: 0.6;
+  position: absolute;
+  background-color: #fff1e6;
+  z-index: 2;
+  font-size: 1.5rem;
+  color: #a5a58d;
+  text-align: center;
+  line-height: 35vh;
+}
+
+//最新
+.storeP2BackgroundNewsBox1 {
+  top: 0px;
+  right: 3vw;
+  width: 15vw;
+  height: 35vh;
+  opacity: 0.8;
+  position: absolute;
+  background-color: #a5a58d;
+}
+
+.storeP2BackgroundNewsBox2 {
+  top: 5vh;
+  right: 6vw;
+  width: 15vw;
+  height: 35vh;
+  opacity: 0.8;
+  position: absolute;
+  background-color: #fff1e6;
+  z-index: 2;
+  font-size: 1.5rem;
+  color: #b7b7a4;
+  text-align: center;
+  line-height: 35vh;
+}
+
+.storeP1Title {
+  font-family: "Microsoft JhengHei", "Noto_Serif_TC-Regular", "Roboto-Regular",
+    monospace, serif;
+  display: flex;
+  // margin: 3vh auto 5vh; MY
+  margin: 6vh auto 0vh; //1920
+  font-size: 16px;
+}
+
+.line1 {
+  width: 10vw;
+  height: 2.5vh;
+  border-bottom: 1px solid #ed8f8f;
+}
+
+.goodsText {
+  margin-left: 2vw;
+  margin-top: 3vh;
+  margin-bottom: 3vh;
+}
+
+#number {
+  color: #ed8f8f;
+}
+
+.storeP1GoodsWords {
+  font-size: 1.5rem;
+  margin: 0px 3vh;
+}
+
+.line2 {
+  width: 10vw;
+  height: 2.5vh;
+  border-bottom: 1px solid #ed8f8f;
+}
+
+.fliter {
+  /* background-color: rgb(181, 250, 135); */
+  position: relative;
+  height: 4rem;
+  width: 100%;
+  margin-bottom: 5vh;
+}
+
+.hotSale {
+  position: absolute;
+  background-color: #cb997e;
+  right: 0px;
+  border-radius: 4px;
+  transition: 0.3s;
+  text-align: center;
+  padding: 1rem;
+  color: #fff;
+}
+
+.hotSale:hover {
+  border: 1px solid #cb997e;
+  color: #cb997e;
+  background-color: #fff;
+}
+
+.storeP1Bottom {
+  // margin-bottom: 15vh; 1920
+}
+
+#between {
+  justify-content: space-around;
+}
+
+.card_new {
+  min-height: 30vh;
+  width: 30vw;
+  /* height: 35vh; */
+  margin: 0px 5px 3rem 2px;
+
+  padding: 0px;
+  border: 1px solid #ed8f8f;
+  border-radius: 4px;
+  background-color: white;
+  text-align: justify;
+  position: relative;
+  overflow: hidden;
+  transition: 0.1s;
+  box-shadow: 0px 5px 3px gray;
+}
+
+.iconStore {
+  position: absolute;
+  right: 2rem;
+  top: 2rem;
+}
+
+.icon2 {
+  position: absolute;
+  // right: 2rem;
+  // bottom: 2rem;
+}
+
+.icon2:hover {
+  fill: salmon;
+}
+
+.card_new:hover {
+  box-shadow: 0px 10px 10px gray;
+}
+
+#between > div:nth-child(4) > a > div.img > img {
+  width: 100%;
+  height: 259.96px;
+  object-fit: contain;
+}
+
+#between > div:nth-child(3) > a > div.img > img {
+  width: 100%;
+  height: 259.96px;
+  object-fit: contain;
+}
+
+#between > div:nth-child(1) > a > div.img > img {
+  width: 100%;
+  height: 259.96px;
+  object-fit: contain;
+}
+
+#between > div:nth-child(2) > a > div.img > img {
+  width: 100%;
+  height: 259.96px;
+  object-fit: contain;
+}
+
+#PageBar {
+  justify-content: space-around;
+}

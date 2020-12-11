@@ -1,0 +1,177 @@
+.addForumBox {
+  position: relative;
+  margin: 150px auto;
+  width: 658px;
+  height: 570px;
+  background-color: #fffffd;
+  border: solid #cb997e 1px;
+  padding: 25px 50px;
+}
+
+.addBigEXit{
+  position: absolute;
+  top:10px;
+  right:10px;
+  width: 20px;
+  color:#777B5A;
+  // font:{
+  //   family: $fontType1;
+  //   size:18px;
+  //   weight: bold;
+  // }
+}
+
+.addForumTitle {
+  text-align: center;
+  margin-top:30px;
+  color: #a5a58d;
+  font: {
+    family: $fontType1;
+    size: 24px;
+    weight: lighter;
+  }
+}
+
+.addForumBtnControl{
+  padding:1rem;
+}
+
+.addforumright{
+  margin-right:0.75rem;
+  z-index: 10;
+}
+
+.addContentBox {
+  position: relative;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  width: 558px;
+  min-height: 330px;
+  text-align: center;
+  background-color: #fffffd;
+  border: solid #cb997e 1px;
+}
+
+.addContentTop {
+  display: flex;
+  width: 558px;
+  height: 124px;
+  background-color: #ddbea9;
+  border: solid #cb997e 1px;
+  position: absolute;
+  top: 0;
+}
+
+.addAutorItems{
+  margin-left:50px;
+  margin-top:30px;
+  width: 160px;
+  height: 68px;
+  display:flex;
+  justify-content: space-between;
+}
+
+.addAutorImg{
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+  background-color: #fffffD;
+}
+
+.addAutorName{
+  color:#555555;
+  margin-top:8px;
+  font:{
+    family: $fontType1;
+    size: 14px;
+  }
+}
+
+.addIssueT {
+  color: #FFFFFD;
+  // text-align: left;
+  background-color: #ED8F8F;
+  border-radius: 8px;
+  position: absolute;
+  margin-left: 35px;
+  margin-top:20px;
+  align-items: center;
+  width: 80px;
+  height: 20px;
+  font: {
+    size:12px;
+    family: $fontType1;
+  }
+}
+.addIssueStyle {
+  position: absolute;
+  margin-left: 35px;
+  margin-top: 50px;
+  width: 193px;
+  height: 20px;
+  background-color: #fffffd;
+  border: solid #cb997e 1px;
+}
+
+.addIssueItems {
+  position: relative;
+  max-width: 250px;
+  height: 88px;
+  align-items: center;
+  margin-right:150px;
+  left:80px;
+  top: 30px;
+  z-index: 1;
+  border-left: solid #707070 1px;
+}
+
+.articleContent {
+  position: absolute;
+  margin-top:140px;
+  left:18px;
+  width: 518px;
+  height: 150px;
+  border:none;
+  resize:none;
+}
+
+.addControlelse{
+  position: absolute;
+  margin-top:10px;
+  bottom:8px;
+  width: 528px;
+  height: 35px;
+  display:flex;
+  justify-content: space-between;
+  padding-left:12px;
+}
+
+.addImgText{
+  margin-left:10px;
+  margin-top:15px;
+  min-width: 104px;
+  background-color: #E0DFDE;
+  color:#FFFFFD;
+  font:{
+    family: $fontType1;
+    size: 12px;
+  }
+
+}
+
+.pinkIcon{
+  max-width: 30px;
+  margin-right:4px;
+}
+.pinkIconExit{
+  max-width: 30px;
+  margin-right:4px;
+  margin-bottom:5px;
+}
+
+.addbtnControl{
+  width: 558px;
+  margin:12px auto;
+  text-align: center;
+}

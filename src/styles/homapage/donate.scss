@@ -1,0 +1,58 @@
+.donateBanner {
+  background-image: url(/image/homepage/homepage1-1.png);
+  height: 70vh;
+  min-height: 400px;
+  width: 80vw;
+  background-attachment: fixed;
+  background-size: cover;
+  font: {
+    size: 6rem;
+    family: $fontType3;
+    weight: 700;
+  }
+  color: rgba($color: #fff, $alpha: 0.8);
+}
+.donateTitle {
+  color: #555555;
+  font: {
+    family: $fontType2;
+    size: 4rem;
+  }
+}
+
+.donateArea {
+  height: 600px;
+  width: 100vw;
+  background-color: #fff1e6;
+  position: relative;
+}
+.donateSuccess {
+  width: 60vw;
+  transition: 0.5s;
+  position: absolute;
+  left: 20vw;
+  margin-top: 5px;
+  background-color: #777b5a;
+  color: #fafafa;
+  border-radius: 5px;
+}
+.donateAlert {
+  height: 100px;
+  width: 100vw;
+  padding-top: 5px;
+}
+.donateItems {
+  margin-top: 20px;
+}
+.donateCredit {
+  font: {
+    size: 18px;
+    family: $fontType1;
+  }
+  color: #555555;
+  line-height: 36px;
+}
+
+.css-dyz6n {
+  margin: 0 auto;
+}

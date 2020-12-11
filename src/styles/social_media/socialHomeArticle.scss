@@ -1,0 +1,103 @@
+//------------------------------socialHomeArticle------------------------------
+//socialHomeArticle範圍
+.socialArticleMain {
+  background-color: #e1e1d5;
+  top: 3rem;
+  min-width: 100%;
+  height: 43.75rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 12.5rem;
+}
+
+//線條變色
+.socialArticleTextBox {
+  border-bottom: solid #b7b7a4 3px;
+}
+
+.socialArticleBottomline {
+  display: inline-block;
+  width: 22.5rem;
+  border-bottom: solid #b7b7a4 3px;
+}
+
+//socialArticle_Cards
+.socialArticleCardItems {
+  position: relative;
+  margin: 5rem auto;
+  padding: 0 1.25rem;
+  max-height: 19.375rem;
+  justify-content: space-between;
+  overflow: hidden;
+}
+
+.socialArticleCard {
+  position: relative;
+  width: 20rem;
+  height: 18.75rem;
+  background-color: #fffffd;
+  overflow: hidden;
+  img {
+    object-fit: cover;
+  }
+}
+
+.socialArticleCardImg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 11.5625rem;
+  opacity: 70%;
+}
+
+.socialArticleTitle {
+  position: absolute;
+  bottom: 3.75rem;
+  height: 2.5rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.socialArticleBT {
+  position: relative;
+  bottom:1rem;
+  width: 5rem;
+  text-align: center;
+  color: #a5a58d;
+}
+
+.socialArticleST {
+  width: 220px;
+  height: 100px;
+  text-align: left;
+  color: #555555;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.socialArticleContent {
+  position: absolute;
+  width: 220px;
+  height: 150px;
+  padding-left: 4.0625rem;
+  height: 2.5rem;
+  padding-top:1rem;
+  bottom: 0.9375rem;
+  line-height: 1rem;
+  color: #555555;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space : nowrap;
+}
+
+.socialArticleLink {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 4rem;
+  height: 1.875rem;
+  color: #4fa8e3;
+  text-align: center;
+  cursor: pointer;
+}

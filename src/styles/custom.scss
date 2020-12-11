@@ -1,0 +1,219 @@
+// 預設變數覆蓋需要在導入Bootstrap之前
+$fontType1: '微軟正黑體';
+$fontType2: 'Noto Serif TC';
+$fontType3: 'Roboto';
+$primary: #a5a58d;
+$secondary: #131010;
+
+// Import Bootstrap and its default variables
+@import '~bootstrap/scss/bootstrap.scss';
+@import './footer.scss';
+@import './navbar.scss';
+@import './styleGuide.scss';
+
+// 其它要導入覆蓋掉原本的預設bootstrap樣式要放在這下面
+main {
+  margin-top: 100px;
+}
+main > .container {
+  height: 100vh;
+  padding: 60px 15px 0;
+}
+
+footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  min-height: 300px;
+}
+//暫設定h1-h6字體
+
+//中文字形
+.header1 {
+  font: {
+    family: $fontType2;
+    size: 3.75rem;
+  }
+}
+
+.header2 {
+  font: {
+    family: $fontType2;
+    size: 2.375rem;
+  }
+}
+
+.header3 {
+  font: {
+    family: $fontType2;
+    size: 2.125rem;
+  }
+}
+
+.header4 {
+  font: {
+    family: $fontType1;
+    size: 2.125rem;
+  }
+}
+
+.header5 {
+  font: {
+    family: $fontType1;
+    size: 1.25rem;
+  }
+}
+
+.header6 {
+  font: {
+    family: $fontType1;
+    size: 1.125rem;
+    weight: lighter;
+  }
+}
+
+.header7 {
+  font: {
+    family: $fontType2;
+    size: 1rem;
+  }
+}
+
+.paragraph1 {
+  font: {
+    family: $fontType1;
+    size: 1rem;
+    weight: lighter;
+  }
+}
+
+.paragraph2 {
+  font: {
+    family: $fontType1;
+    size: 0.875rem;
+  }
+}
+
+.caption {
+  font: {
+    family: $fontType1;
+    size: 0.75rem;
+    weight: lighter;
+  }
+}
+
+//英文字形
+
+.enHeader1 {
+  font: {
+    family: $fontType3;
+    size: 3.75rem;
+    weight: bold;
+    letter-spacing: -1.5;
+  }
+}
+
+.enHeader2 {
+  font: {
+    family: $fontType3;
+    size: 3.75rem;
+    weight: lighter;
+    letter-spacing: -0.5;
+  }
+}
+
+.enHeader3 {
+  font: {
+    family: $fontType3;
+    size: 3rem;
+  }
+}
+
+.enHeader4 {
+  font: {
+    family: $fontType3;
+    size: 2.125rem;
+    letter-spacing: 0.25;
+  }
+}
+
+.enHeader5 {
+  font: {
+    family: $fontType3;
+    size: 1.5rem;
+  }
+}
+
+.enHeader6 {
+  font: {
+    family: $fontType3;
+    size: 1.25rem;
+    letter-spacing: 0.15;
+  }
+}
+
+.enParagraph {
+  font: {
+    family: $fontType3;
+    size: 1rem;
+    weight: lighter;
+  }
+}
+
+//英文字形
+
+.enHeader1 {
+  font: {
+    family: $fontType3;
+    size: 3.75rem;
+    weight: bold;
+    letter-spacing: -1.5;
+  }
+}
+
+.enHeader2 {
+  font: {
+    family: $fontType3;
+    size: 3.75rem;
+    weight: lighter;
+    letter-spacing: -0.5;
+  }
+}
+
+.enHeader3 {
+  font: {
+    family: $fontType3;
+    size: 3rem;
+  }
+}
+
+.enHeader4 {
+  font: {
+    family: $fontType3;
+    size: 2.125rem;
+    letter-spacing: 0.25;
+  }
+}
+
+.enHeader5 {
+  font: {
+    family: $fontType3;
+    size: 1.5rem;
+  }
+}
+
+.enHeader6 {
+  font: {
+    family: $fontType3;
+    size: 1.25rem;
+    letter-spacing: 0.15;
+  }
+}
+
+.enParagraph {
+  font: {
+    family: $fontType3;
+    size: 1rem;
+    weight: lighter;
+  }
+}

@@ -1,0 +1,62 @@
+.page2 {
+  margin-bottom: 20vh;
+}
+.page2img {
+  height: 25.1875rem;
+  width: 12.625rem;
+  margin-right: 1rem;
+}
+.page2img1 {
+  height: 25.1875rem;
+  width: 12.625rem;
+  margin-right: 1rem;
+  background-image: url(/image/homepage/homepage2-1.png);
+  background-size: cover;
+}
+
+.page2img2 {
+  height: 25.1875rem;
+  width: 12.625rem;
+  margin-right: 1rem;
+  margin-top: 6.125rem;
+  background-image: url(/image/homepage/homepage2-2.png);
+  background-size: cover;
+}
+.page2img3 {
+  margin-top: 12.25rem;
+  height: 25.1875rem;
+  width: 12.625rem;
+  margin-right: 1rem;
+  background-image: url(/image/homepage/homepage2-3.png);
+  background-size: cover;
+}
+
+.page2desBlock {
+  margin: 310px 0 0 30px;
+}
+.adopt {
+  font-size: 60px;
+  font-weight: lighter;
+  font-family: $fontType3;
+  color: #a5a58d;
+  margin-bottom: 45px;
+}
+
+.page2des {
+  color: #707070;
+  font-size: 20px;
+  font-family: $fontType1;
+  margin: 0 0 26px 107px;
+}
+.page2des2 {
+  color: #a5a58d;
+  font-size: 16px;
+  font-family: $fontType1;
+  margin-left: 255px;
+}
+.page2des2:hover {
+  color: #a5a58d;
+}
+.hoverarrow:hover {
+  transform: perspective(1px) translateZ(0);
+}

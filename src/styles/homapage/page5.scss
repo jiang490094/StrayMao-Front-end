@@ -1,0 +1,123 @@
+.page5bar {
+  background-color: #f0efeb;
+  width: 100vw;
+  height: 40vh;
+  max-height: 350px;
+}
+.page5title {
+  width: 400px;
+  height: 144px;
+}
+
+.page5Social {
+  color: #a5a58d;
+  font-size: 3.75rem;
+  font-family: $fontType3;
+  font-weight: lighter;
+  margin-bottom: 10px;
+}
+.page5slogan {
+  color: #555555;
+  font-size: 1.25rem;
+  font-family: $fontType1;
+  text-align: end;
+}
+.page5 {
+  width: 100vw;
+  height: 90vh;
+  min-height: 700px;
+}
+.page5left {
+  height: 60vh;
+}
+.page5right {
+  height: 90vh;
+}
+
+.page5des1 {
+  color: #555555;
+  font-size: 2.375rem;
+  font-family: $fontType2;
+  width: 60%;
+}
+
+.page5small {
+  font-size: 1.25rem;
+  color: #a5a58d;
+  font-family: $fontType1;
+}
+
+.page5right-1 {
+  height: 90vh;
+  width: 50%;
+  margin-right: 5px;
+  overflow: auto;
+}
+.page5right-1::-webkit-scrollbar {
+  display: none;
+}
+.page5right-2 {
+  height: 90vh;
+  width: 50%;
+  margin-left: 5px;
+  overflow: auto;
+}
+.page5right-2::-webkit-scrollbar {
+  display: none;
+}
+
+.page5card {
+  background-color: #fff1e6;
+  width: 100%;
+  height: 23.375rem;
+  padding-top: 1rem;
+  margin-bottom: 1rem;
+  border: 0.1px #fff1e6 solid;
+  border-radius: 4px;
+}
+
+.page5cardImg {
+  width: 17.5rem;
+  height: 16.75rem;
+}
+.page5cardImg img {
+  width: 17.5rem;
+  height: 16.75rem;
+  object-fit: cover;
+  opacity: 0.8;
+}
+.page5cardDes {
+  width: 90%;
+  height: 20%;
+  margin-top: 2%;
+}
+.page5cardDate {
+  width: 35%;
+  height: 80%;
+  border-right: 1px solid #555555;
+  color: #555555;
+  font-family: $fontType3;
+  padding: 0 5%;
+}
+.page5cardYear {
+  font-size: 1.5rem;
+}
+
+.page5cardContent {
+  width: 65%;
+  height: 80%;
+  padding: 0 5%;
+}
+.page5cardLabel {
+  font-size: 0.875rem;
+  width: 30%;
+  font-family: $fontType1;
+  color: #fff1e6;
+  background-color: #a5a58d;
+  border-radius: 10px;
+}
+
+.page5cardTopic {
+  font-family: $fontType1;
+  font-size: 1.125rem;
+}

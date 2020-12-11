@@ -1,0 +1,189 @@
+//------------------------------socialTopAll------------------------------
+//socialHomeTop title
+.socialTitleMain {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.socialBTitle {
+  color: #ed8f8f;
+  z-index: 1;
+}
+
+.socialSTitle {
+  position: absolute;
+  display: inline;
+  color: #ed8f8f;
+  top: 1rem;
+  right: 0;
+}
+
+.socialTitleLine {
+  position: absolute;
+  width: 18.75rem;
+  height: 1.0625rem;
+  background-color: #f0efeb;
+  bottom: 0.875rem;
+}
+
+//TopCard
+.socialtopItems {
+  position: relative;
+  margin: 0 auto;
+  max-width: 1284px;
+  min-height: 470px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.topCardItems {
+  position: absolute;
+  // bottom:-10px;
+  width: 61.875rem;
+  min-height: 405px;
+  justify-content: space-between;
+  align-items: flex-end;
+  display: flex;
+  z-index: 0;
+}
+
+.topCard {
+  background-color: #fff1e6;
+  width: 18.75rem;
+  height: 21.875rem;
+  text-align: center;
+  box-shadow: 0px 8px 8px #cfcfcf;
+  z-index: 0;
+}
+
+.topCardImg {
+  width: 17.5rem;
+  height: 17.5rem;
+  margin-top: 0.75rem;
+  padding: 0 auto;
+  opacity: 80%;
+  background-color: white;
+  object-fit: cover;
+}
+
+//TopCard 文字們
+.topCardText {
+  color: #707070;
+  display: inline-flex;
+  margin-top: 0.3125rem;
+  text-align: center;
+  align-items: center;
+  height: 3.125rem;
+}
+.topCardTitle {
+  width: 5.9375rem;
+  height: 3.125rem;
+  border-right: solid #707070 1px;
+  font: {
+    family: $fontType2;
+    size: 1.75rem;
+  }
+}
+.topCardP {
+  // display: block;
+  width: 11.625rem;
+  color: #a5a58d;
+  cursor: pointer;
+}
+
+//TopCard變化
+.bigTopCard {
+  background-color: #fff1e6;
+  width: 20rem;
+  height: 23.4375rem;
+  text-align: center;
+  position: relative;
+  top: -0.625rem;
+  box-shadow: 0px 8px 8px #cfcfcf;
+}
+
+.bigCardImg {
+  width: 18.75rem;
+  height: 18.75rem;
+  margin-top: 0.75rem;
+  padding: 0 auto;
+  opacity: 80%;
+  background-color: white;
+  object-fit: cover;
+}
+
+//grayCoverItems
+.grayCover {
+  background-color: #e0dfde;
+  width: 18.75rem;
+  height: 21.875rem;
+  position: absolute;
+  opacity: 90%;
+  text-align: center;
+  z-index: 1;
+}
+
+.coverText {
+  position: relative;
+  color: #fff1e6;
+  top: 40%;
+}
+
+//TopPageBtn
+.topBtnItems {
+  position: relative;
+  top:10px;
+  justify-content: center;
+}
+
+.topBtnBox {
+  display: flex;
+  width: 20.3125rem;
+  justify-content: space-between;
+}
+
+.topBtnW {
+  width: 9.6875rem;
+}
+//topArrow
+.grayarrowItems {
+  position: relative;
+  width: 78.25rem;
+  display: flex;
+  justify-content: space-between;
+  z-index: 1;
+}
+.toparrow-left {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 3.125rem;
+  height: 2.5625rem;
+  border-radius: 0.625rem 0 0 0.625rem;
+  background-color: #d1d1d1;
+  align-items: center;
+}
+
+.inlineArrow {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 1rem;
+  &:hover {
+    height: 1.5rem;
+    cursor: pointer;
+  }
+}
+
+.toparrow-right {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  width: 3.125rem;
+  height: 2.5625rem;
+  border-radius: 0 0.625rem 0.625rem 0;
+  background-color: #d1d1d1;
+}
