@@ -1,0 +1,42 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+yarn.lock
+.prettierrc
+**/.DS_Store
+package-lock.json
+# testing
+/coverage
+
+# production
+/build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+/public/bootstrap
+debug.log
+
+# social page
+SocialForum copy.js
+Form.js
+ForumListCard copy.js
+UseModal.js
+AddForumCard copy.js
+SocialForum copy 2.js
+SocialForum copy 3.js
+src/components/social_media/FourmArticleBtnControl.js
+debug.log
+
+# store
